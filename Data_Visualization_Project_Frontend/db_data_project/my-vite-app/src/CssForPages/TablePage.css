@@ -1,0 +1,67 @@
+.table-container {
+    text-align: center; /* Center-align the table container */
+  }
+  
+  table {
+    border-collapse: collapse; /* Ensure borders collapse into single lines */
+    width: 100%; /* Full width of its container */
+    margin: 0 auto; /* Center the table horizontally */
+  }
+  
+  th, td {
+    border: solid 1px black; /* Border for table cells */
+    padding: 5px; /* Padding inside cells */
+    text-align: center; /* Center-align content in cells */
+    vertical-align: middle; /* Center-align content vertically */
+}
+  
+th {
+    text-align: center; /* Center-align header text horizontally */
+    vertical-align: middle; /* Center-align header text vertically */
+    padding: 10px; /* Increase padding for better alignment */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+  
+  .table-wrapper {
+    overflow-x: auto; /* Allow horizontal scrolling */
+    border: solid 1px black;
+  }
+  
+
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center both the title, sort, and search buttons */
+}
+
+.header-title {
+    margin-right: 5px; /* Space between title and buttons */
+}
+
+.sort-button,
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px; /* Adjust the font size for better visibility */
+    padding: 0;
+    margin-left: 3px; /* Space between buttons */
+}
+
+.sort-button:focus,
+.search-button:focus {
+    outline: none; /* Remove outline on focus */
+}
+
+.sort-button:hover,
+.search-button:hover {
+    color: #007BFF; /* Change color on hover */
+}
+
+.column-search {
+    margin-top: 5px;
+    width: 100%;
+    padding: 2px;
+    font-size: 12px;
+}
