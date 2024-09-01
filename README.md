@@ -28,19 +28,19 @@ This project is a data visualization web application that allows users to upload
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/datavisualizationproject.git
+    git clone https://github.com/AH3141/Data-Visualization-Project.git
     cd datavisualizationproject
     ```
 
 2. **Install frontend dependencies:**
     ```bash
-    cd frontend
+    cd Data_Visualization_Project_Frontend
     npm install
     ```
 
 3. **Install backend dependencies:**
     ```bash
-    cd backend
+    cd Data_Visualization_Project_Backend
     pip install -r requirements.txt
     ```
 
@@ -48,13 +48,13 @@ This project is a data visualization web application that allows users to upload
 
 1. **Start the backend server:**
     ```bash
-    cd backend
+    cd Data_Visualization_Project_Backend
     python app.py
     ```
 
 2. **Start the frontend development server:**
     ```bash
-    cd frontend
+    cd Data_Visualization_Project_Frontend
     npm run dev
     ```
 
