@@ -29,7 +29,7 @@ This project is a data visualization web application that allows users to upload
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/AH3141/Data-Visualization-Project.git
-    cd datavisualizationproject
+    cd Data-Visualization-Project
     ```
 
 2. **Install frontend dependencies:**
