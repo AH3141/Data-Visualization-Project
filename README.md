@@ -34,13 +34,13 @@ This project is a data visualization web application that allows users to upload
 
 2. **Install frontend dependencies:**
     ```bash
-    cd Data_Visualization_Project_Frontend
+    cd Data_Visualization_Project_Frontend\db_data_project\my-vite-app
     npm install
     ```
 
 3. **Install backend dependencies:**
     ```bash
-    cd Data_Visualization_Project_Backend
+    cd Data_Visualization_Project_Backend\code
     pip install -r requirements.txt
     ```
 
@@ -48,13 +48,13 @@ This project is a data visualization web application that allows users to upload
 
 1. **Start the backend server:**
     ```bash
-    cd Data_Visualization_Project_Backend
+    cd Data_Visualization_Project_Backend\code
     python app.py
     ```
 
 2. **Start the frontend development server:**
     ```bash
-    cd Data_Visualization_Project_Frontend
+    cd Data_Visualization_Project_Frontend\db_data_project\my-vite-app
     npm run dev
     ```
 
