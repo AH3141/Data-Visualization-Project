@@ -36,12 +36,20 @@ This project is a data visualization web application that allows users to upload
     ```bash
     cd Data_Visualization_Project_Frontend\db_data_project\my-vite-app
     npm install
+    npm install react
+    npm install react-table
+    npm install react-router-dom@5
+    npm install axios
+    npm install papaparse
     ```
 
 3. **Install backend dependencies:**
     ```bash
     cd Data_Visualization_Project_Backend\code
     pip install -r requirements.txt
+    pip install --user flask
+    pip install --user flask_cors
+    pip install --user pandas
     ```
 
 ### Running the Application
@@ -58,7 +66,7 @@ This project is a data visualization web application that allows users to upload
     npm run dev
     ```
 
-3. **Open your browser and go to:**
+3. **In the command line, got to the link provided after "->Local:". The link should look like this, but may have a different number:**
     ```
     http://localhost:3000
     ```
